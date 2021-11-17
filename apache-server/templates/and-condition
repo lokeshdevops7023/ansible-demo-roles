@@ -1,0 +1,8 @@
+---
+- name: install Apache webserver
+  hosts: all
+  tasks:
+    - name: Install Apache on Ubuntu Server
+      apt: name=apache2 state=present
+      become: yes
+      when: ansible_os_family == "CentOS" and ansible_distribution_version == "7"

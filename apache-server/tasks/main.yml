@@ -1,0 +1,9 @@
+---
+# tasks file for apache-server
+
+    - name: install httpd packages
+      package:
+        name: "{{ item }}"
+        state: present
+      with_items: "{{ httpd_packages }}"
+     
