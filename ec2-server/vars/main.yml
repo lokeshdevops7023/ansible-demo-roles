@@ -2,7 +2,7 @@
 # vars file for ec2-server
 
       instance_type: t2.micro
-      security_group: webservers
+      security_group: webservers-1
       image: ami-0080e4c5bc078760e
       region: us-east-2
       keypair: AnsibleTowerTest
