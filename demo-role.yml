@@ -1,8 +1,7 @@
 ---
 - hosts: localhost
   connection: local
-  gather_facts: False
-  become: yes
+  sudo: yes
   roles:
     - ec2-server
     - apache-server
