@@ -1,6 +1,2 @@
 ---
 # vars file for apache-server
-
-    httpd_packages:
-      - httpd
-
