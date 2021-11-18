@@ -6,7 +6,7 @@
    state: latest
 - name: ensure httpd is installed
   yum:
-   name: httpd
+   name: nginx
    state: latest
 
 
