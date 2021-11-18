@@ -3,7 +3,7 @@
 
       instance_type: t2.micro
       security_group: webservers-1
-      image: ami-0080e4c5bc078760e
+      image: ami-0dd0ccab7e2801812
       region: us-east-2
       keypair: AnsibleTowerTest
       count: 1
